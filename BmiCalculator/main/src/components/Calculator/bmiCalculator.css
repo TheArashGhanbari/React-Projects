@@ -1,0 +1,47 @@
+.calculator {
+  width: 335px;
+  height: 500px;
+  padding: 25px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.calculator .title {
+  text-align: center;
+  font-size: 14px;
+}
+
+.bmi-calculator-form {
+  margin-top: 35px;
+}
+
+.input-label-con {
+  display: grid;
+  text-align: left;
+  margin-top: 25px;
+  gap: 5px;
+}
+
+.input-label-con input {
+  padding: 10px;
+  height: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  border-radius: 5px;
+}
+
+.input-label-con input::placeholder {
+  color: rgb(128, 128, 128);
+}
+
+.input-label-con input:focus {
+  outline: 1px dashed gray;
+}
+
+.button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
